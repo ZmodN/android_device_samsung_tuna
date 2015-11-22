@@ -217,6 +217,9 @@ PRODUCT_PACKAGES += \
 	fibmap.f2fs \
 	f2fstat
 
+#AOSP bootanimation
+PRODUCT_BOOTANIMATION := $(DEVICE_FOLDER)/prebuilt/media/bootanimation.zip:system/media/bootanimation.zip
+
 # DCC
 PRODUCT_PACKAGES += \
 	dumpdcc
