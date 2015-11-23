@@ -219,7 +219,7 @@ PRODUCT_PACKAGES += \
 
 #AOSP bootanimation
 PRODUCT_COPY_FILES += \
-	$(DEVICE_FOLDER)/prebuilt/media/bootanimation.zip:system/media/bootanimation.zip
+    $(DEVICE_FOLDER)/prebuilt/media/bootanimation.zip:system/media/bootanimation.zip
 
 # DCC
 PRODUCT_PACKAGES += \
