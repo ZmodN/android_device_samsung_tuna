@@ -218,7 +218,8 @@ PRODUCT_PACKAGES += \
 	f2fstat
 
 #AOSP bootanimation
-PRODUCT_BOOTANIMATION := $(DEVICE_FOLDER)/prebuilt/media/bootanimation.zip:system/media/bootanimation.zip
+PRODUCT_COPY_FILES += \
+    $(DEVICE_FOLDER)/prebuilt/media/bootanimation.zip:system/media/bootanimation.zip
 
 # DCC
 PRODUCT_PACKAGES += \
